@@ -1,0 +1,6 @@
+.menuItem {display: inline-block;width: 592px;;box-sizing: border-box;}
+.menuItem .tblData, .menuItem .tblMenu{display: inline-flex;align-items:center;width: 100%;height: auto;padding: 0;margin: 0;box-sizing: border-box;}
+.menuItem .tblMenu{flex-direction: column;}
+.menuItem .tblData li{display: inline-block;width: calc(100% / 3);height: auto;padding: 10px;box-sizing: border-box;text-decoration:none;text-align: center;}
+.menuItem .tblMenu li{width: 100%;padding: 6px;}
+.menuItem .tblData:not(:last-child){border-bottom: 2px solid cornflowerblue;}

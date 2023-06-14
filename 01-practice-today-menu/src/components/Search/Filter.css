@@ -1,0 +1,5 @@
+.filter{display: inline-block;width: 600px;padding: 0;margin: 20px 0;text-decoration: none;}
+.filter li{display: inline-block;width: 70px;box-sizing: border-box;}
+.filter li:not(:first-child){margin-left: 10px;}
+.filter li button{display: inline-block;width: 70px;height: 30px;font-weight: 700;border: none;border-radius: 5px;background-color: rgb(255, 179, 194);}
+.filter li button:hover{cursor: pointer;color: #fff;background-color: rgb(255, 43, 86);}

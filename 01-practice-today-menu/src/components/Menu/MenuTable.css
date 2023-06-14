@@ -1,0 +1,4 @@
+.menuTable{display: inline-block;width: 600px;border:4px solid cornflowerblue;border-radius: 5px;box-sizing: border-box;}
+.menuTable .tblHead{display: inline-block;width: 100%;padding: 0;margin: 0;border-bottom: 2px solid cornflowerblue;}
+.menuTable .tblHead li{display: inline-block;width: calc(100% / 3);padding: 16px 32px;box-sizing: border-box;text-align: center;font-weight: 800;background-color:cornflowerblue;}
+.menuTable .tblHead li:not(:first-child){border-left: 4px solid aliceblue;}
